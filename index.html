@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HikeHaven</title>
+
+        <!-- Font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- Css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        
+        <!-- Header section starts  -->
+
+        <header class="header">
+
+            <a href="index.html" class="logo"> <!--<i class="fas fa-hiking"></i>--> HikeHaven </a>
+
+            <nav class="navbar">
+                <div id="nav-close" class="fas fa-times"></div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#shop">Shop</a>
+                <a href="#packages">Packages</a>
+                <a href="#blogs">Blogs</a>
+                <a href="login.html">Log in</a>
+            </nav>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <a href="#shop" class="fas fa-shopping-cart"></a>
+                <div id="search-btn" class="fas fa-search"></div>
+            </div>
+
+        </header>
+
+        <!-- Header section ends -->
+
+        <!-- Search form  -->
+
+        <div class="search-form">
+
+            <div id="close-search" class="fas fa-times"></div>
+
+            <form action="">
+                <input type="search" name="" placeholder="Search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+
+        <!-- Home section starts  -->
+
+        <section class="home" id="home">
+
+            <div class="swiper home-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                            <div class="content">
+                                <span>Never stop</span>
+                                <h3>Exploring</h3>
+                                <p>Embrace the unknown and venture into uncharted territories. Discover the beauty of the world around you, both near and far. Let your curiosity be your compass, guiding you through the wonders that await!</p>
+                                <!-- <a href="#" class="btn">Get started</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                            <div class="content">
+                                <span>Make tour</span>
+                                <h3>Amazing</h3>
+                                <p>Embark on an unforgettable journey that takes you through breathtaking landscapes and immersive experiences. Let the world's beauty unfold before you as you create lasting memories!</p>
+                                <!-- <a href="#" class="btn">Get started</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                            <div class="content">
+                                <span>Explore the</span>
+                                <h3>New world</h3>
+                                <p>Embark on exhilarating hikes that lead you to the heart of nature's wonders. Feel the thrill of conquering challenging trails, breathing in fresh mountain air, and witnessing panoramic views that will leave you in awe!</p>
+                                <!-- <a href="#" class="btn">Get started</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </section>
+
+        <!-- Home section ends -->
+
+        <!-- Category section starts  -->
+
+        <section class="category">
+
+            <h1 class="heading">Adventure idea!</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/category-1.jpg" alt="Teth Valbone">
+                    <h3>Valbonë -Teth to Buni Shqipes</h3>
+                    <p>Discover this 18.7-mile out-and-back trail near Tropojë, Kukës. Generally considered a challenging route, it takes an average of 13 h 2 min to complete.</p>
+                    <a href="https://en.wikipedia.org/wiki/Theth_National_Park" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/category-2.jpg" alt="Mount Korab">
+                    <h3>Mount Korab</h3>
+                    <p>Try this 10.6-mile out-and-back trail near Dibër, Dibër. Generally considered a challenging route, it takes an average of 8 h 14 min to complete. </p>
+                    <a href="https://en.wikipedia.org/wiki/Korab_(mountain)" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/category-3.jpg" alt="Mount Gamtit">
+                    <h3>Mount Gamtit</h3>
+                    <p>Explore this 7.9-mile loop trail near Krujë, Durrës. Generally considered a challenging route, it takes an average of 5 h 35 min to complete.</p>
+                    <a href="https://www.tirana.al/en/points-of-interest/rrethinat-e-tiranes/gamti-mountain" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/category-4.jpg" alt="Bobotov Kuk">
+                    <h3>Bobotov Kuk</h3>
+                    <p>Check out this 6.1-mile out-and-back trail near Šavnik, Šavnik. Generally considered a challenging route. This is a very popular area for birding and hiking, so you'll likely encounter other people while exploring.</p>
+                    <a href="https://en.wikipedia.org/wiki/Bobotov_Kuk" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/category-5.jpg" alt="Durmitor Ice Cave">
+                    <h3>Durmitor Ice Cave (Ledena Pecina)</h3>
+                    <p>Try this 7.7-mile loop trail near Žabljak, Žabljak. Generally considered a challenging route, it takes an average of 5 h 23 min to complete. </p>
+                    <a href="https://en.wikipedia.org/wiki/Durmitor" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/category-6.jpg" alt="Trnovačko Lake">
+                    <h3>Trnovačko Lake</h3>
+                    <p>Try this 7.8-mile loop trail near Plužine, Plužine. Generally considered a challenging route, it takes an average of 6 h 11 min to complete. This is a popular trail for hiking and running.</p>
+                    <a href="https://en.wikipedia.org/wiki/Trnova%C4%8Dko_Lake" class="btn">Read more</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Category section ends -->
+
+        <!-- About section starts  -->
+
+        <section class="about" id="about">
+
+            <div class="image">
+                <img src="images/about-img.jpg" alt="Skiing">
+            </div>
+
+            <div class="content">
+                <h3>Memorable outdoor experiences</h3>
+                <p>Amidst the majestic landscapes, where mountains touch the sky and rivers weave tales, our souls find solace and adventure intertwines with tranquility. Picture yourself standing on the edge of a precipice, the wind playing a wild symphony as you take a daring leap into the unknown. Feel the rush of adrenaline as you navigate untamed rapids, each wave a testament to your courage.</p>
+                <p>In the heart of nature's embrace, there are no monotones of office walls, only the vibrant hues of a sunrise painting the sky with hues you never knew existed. Leave behind the mundane, and step into a world where every step is a dance with the earth, where every breath draws in the crisp, invigorating air.</p>
+                <!-- <a href="#" class="btn">Read more</a> -->
+            </div>
+
+        </section>
+
+        <!-- About section ends -->
+
+        <!-- Shop section starts  -->
+
+        <section class="shop" id="shop">
+
+            <h1 class="heading">Featured products</h1>
+
+            <div class="swiper product-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/product-1.jpg" alt="Hiking bag">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Hiking bag</h3>
+                            <div class="price">$150.00 </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/product-2.jpg" alt="Knife">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Knife</h3>
+                            <div class="price"> $10.00 </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/product-3.jpg" alt="Eyewear">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Eyewear</h3>
+                            <div class="price"> $25.00 </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/product-4.jpg" alt="Boots">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Boots</h3>
+                            <div class="price"> $70.00 </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/product-5.jpg" alt="Carabiner">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Carabiner</h3>
+                            <div class="price"> $5.00</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/product-6.jpg" alt="Hiking grill">
+                            <div class="icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Hiking grill</h3>
+                            <div class="price"> $75.00 </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </section>
+
+        <!-- Shop section ends -->
+
+        <!-- Packages section starts  -->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">Popular packages</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-1.jpg" alt="Shala river">
+                    </div>
+                    <div class="content">
+                        <h3>Shala river tour</h3>
+                        <p>Shala River is a touristic destination that is described by many visitors as the most beautiful pearl of Koman’s lake, as Thailand of Albania . The hazy color of water and it’s crystal clean water is characteristic of this river.</p>
+                        <div class="price">$30</div>
+                        <a href="#" class="btn">Explore now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-2.jpg" alt="Ksamil Islands">
+                    </div>
+                    <div class="content">
+                        <h3>Ksamil Islands</h3>
+                        <p>The Ksamil Islands are considered the gems of the Albanian Riviera. They are a series of four small islands located off the coast of Saranda, Albania. The islands are pristine, with crystal-clear water and beautiful sandy beaches.</p>
+                        <div class="price">$60</div>
+                        <a href="#" class="btn">Explore now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-3.jpg" alt="Sharr Mountain">
+                    </div>
+                    <div class="content">
+                        <h3>Sharr Mountains National Park</h3>
+                        <p>Elevate your journey to new heights with a visit to the awe-inspiring Sharr Mountain range. Nestled in the heart of natural beauty, Sharr Mountain offers an unparalleled alpine escape for explorers, adventurers, and nature enthusiasts alike. </p>
+                        <div class="price">$100</div>
+                        <a href="#" class="btn">Explore now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-4.jpg" alt="Matka Canyon">
+                    </div>
+                    <div class="content">
+                        <h3>Matka Canyon</h3>
+                        <p>Navigate the pristine waters of Matka Lake on guided boat tours, hike scenic trails that unveil mesmerizing vistas, and capture the essence of this hidden gem through your lens.</p>
+                        <div class="price">$20</div>
+                        <a href="#" class="btn">Explore now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-5.jpg" alt="Mavrovo">
+                    </div>
+                    <div class="content">
+                        <h3>National Park Mavrovo</h3>
+                        <p>Step into a realm of natural wonder as you enter National Park Mavrovo, an untouched paradise waiting to be explored. From dense forests to pristine lakes and rugged peaks, Mavrovo is a haven for those seeking the embrace of wilderness.</p>
+                        <div class="price">$150</div>
+                        <a href="#" class="btn">Explore now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-6.jpg" alt="Liqenat lake">
+                    </div>
+                    <div class="content">
+                        <h3>Liqenat Lake</h3>
+                        <p>Escape to the enchanting embrace of Lake Liqenat in the heart of Rugova, where nature's serenity and grandeur intertwine in perfect harmony. A true hidden gem, this pristine alpine lake offers an oasis of calm and breathtaking vistas that will captivate your senses.</p>
+                        <div class="price">$50</div>
+                        <a href="#" class="btn">Explore now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Packages section ends -->
+
+
+        <!-- Services section starts  -->
+
+        <section class="services">
+
+            <h1 class="heading"> What we offer </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/serv-1.png" alt="Complete guide">
+                    <h3>Complete guide</h3>
+                    <p>Discover the ultimate resource for all your hiking travel aspirations with the Complete Guide for Travel - Hiking Edition.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/serv-2.png" alt="Custom packages">
+                    <h3>Custom packages</h3>
+                    <p>Embark on a personalized journey of a lifetime with our Custom Travel Packages.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/serv-3.png" alt="Family trips">
+                    <h3>Family trips</h3>
+                    <p>Designed with the whole family in mind, these packages offer the perfect blend of excitement, relaxation, and bonding opportunities for all generations.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/serv-4.png" alt="Train guides">
+                    <h3>Train guides</h3>
+                    <p>Whether you're a seasoned rail enthusiast or a first-time traveler, this guide is your ticket to traversing landscapes, cultures, and experiences in an immersive and sustainable way.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/serv-5.png" alt="Adventure trail">
+                    <h3>Adventure trail</h3>
+                    <p> Designed for thrill-seekers and nature enthusiasts, this guide is your compass to conquering the most exhilarating and challenging trails around the Balkan.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/serv-6.png" alt="Various adventure">
+                    <h3>Various adventures</h3>
+                    <p>Whether you're an adrenaline junkie, a curious explorer, or someone looking to push your boundaries, this guide is your compass to a diverse range of thrilling activities that span the globe.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- Services section ends -->
+
+        <!-- Blogs section starts  -->
+
+        <section class="blogs" id="blogs">
+
+            <h1 class="heading"> Our daily posts </h1>
+
+            <div class="swiper blogs-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <img src="images/img-1.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-calendar"></i> 23st July, 2023 </a>
+                            <a href="#"> <i class="fas fa-user"></i> By admin </a>
+                        </div>
+                        <h3>Blog title goes here.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="images/img-2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-calendar"></i> 30st July, 2023 </a>
+                            <a href="#"> <i class="fas fa-user"></i> By admin </a>
+                        </div>
+                        <h3>Blog title goes here.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="images/img-3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#"> <i class="fas fa-calendar"></i> 06st August, 2023 </a>
+                            <a href="#"> <i class="fas fa-user"></i> By admin </a>
+                        </div>
+                        <h3>Blog title goes here.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Blogs section ends -->
+
+        <!-- Newsletter section  -->
+
+        <section class="newsletter">
+
+            <div class="content">
+                <h1 class="heading">Subscirbe now</h1>
+                <p>"Ready to elevate your hiking experience? Subscribe to our page for exclusive trail insights, expert tips, gear recommendations, and breathtaking hiking destinations. Join our community of passionate hikers and let's embark on unforgettable journeys together. Don't miss out – subscribe now and step into a world of adventure!"</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Enter your email" id="" class="email">
+                    <input type="submit" value="subscirbe" class="btn">
+                </form>
+            </div>
+
+        </section>
+
+        <section class="clients">
+
+            <div class="swiper clients-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide silde"><img src="images/client-logo-1.png" alt="Client logo"></div>
+                    <div class="swiper-slide silde"><img src="images/client-logo-2.png" alt="Client logo"></div>
+                    <div class="swiper-slide silde"><img src="images/client-logo-3.png" alt="Client logo"></div>
+                    <div class="swiper-slide silde"><img src="images/client-logo-4.png" alt="Client logo"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer section starts  -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Quick links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#packages">Packages</a>
+                    <a href="#blogs">Blogs</a>
+                    <a href="login.html">Log in</a>
+                </div>
+
+                <div class="box">
+                    <h3>Extra links</h3>
+                    <a href="login.html">My account</a>
+                    <a href="#shop">My order</a>
+                    <a href="#">Ask questions</a>
+                    <a href="#">Terms of use</a>
+                    <a href="#">Privacy policy</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contact info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i> +383-49-111-222 </a>
+                    <a href="#"> <i class="fas fa-phone"></i> +383-49-333-444 </a>
+                    <a href="https://mail.google.com/"> <i class="fas fa-envelope"></i> hikehaven@gmail.com </a>
+                    <a href="https://www.google.com/maps"> <i class="fas fa-map"></i> Prizren, Kosovo - 20060 </a>
+                </div>
+
+                <div class="box">
+                    <h3>Follow us</h3>
+                    <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i> Facebook </a>
+                    <a href="https://twitter.com/"> <i class="fab fa-twitter"></i> Twitter </a>
+                    <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> Instagram </a>
+                    <a href="https://www.linkedin.com/"> <i class="fab fa-linkedin"></i> Linkedin </a>
+                    <a href="https://github.com/"> <i class="fab fa-github"></i> Github </a>
+                </div>
+
+            </div>
+
+            <div class="credit">Created by <span>HikeHaven</span> | All rights reserved!</div>
+
+        </section>
+
+        <!-- Footer section ends -->
+
+
+
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!-- Js file link  -->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
