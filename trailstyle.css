@@ -1,0 +1,249 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+    
+    
+}
+li,a, button{
+    text-decoration: none;
+    font-family: Manrope,Arial,sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.idk{
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 90px;
+}
+.main-image{
+    border-radius: 20px;
+    width: 80%;
+    height: 800px;
+    box-shadow: 0px 4px 11px -1px rgba(0,0,0,0.58);
+-webkit-box-shadow: 0px 4px 11px -1px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 4px 11px -1px rgba(0,0,0,0.58);
+    margin-top: 10px;
+    position: relative;
+    
+}
+.main-image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+}
+.main-image h1{
+    margin-left: 30px;
+    margin-top: 200px;
+    font-size: 50px;
+    position: relative;
+    color: white;
+    font-family: Manrope,Arial,sans-serif;
+}
+.green{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background-color: green;
+    margin-top: 130px;
+}
+
+.accesible{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    
+}
+.accesible-1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+
+   
+}
+.accesible-2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.accesible-3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.accesible-4{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.accesible-5{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.accesible-1 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.accesible-2 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.accesible-3 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.accesible-4 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.accesible-5 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.nav{
+    width: 100%;
+    height: 64.5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #dbdad2;
+    
+    
+}
+.nav-links{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 20px;
+
+}
+.nav-links li a{
+    padding: 20px;
+}
+.logo{
+    width: 130px;
+    height: 30px;
+    
+}
+.menu{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.help{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 13px;
+    margin-right: 30px;
+}
+.help li {
+    list-style: none;
+}
+
+
+.buttons{
+   width: fit-content;
+   height: fit-content;
+}
+.buttons button{
+    margin: 5px;
+    padding: 5px 16px;
+    border-radius: 100px;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.buttons .login:hover{
+    background-color: #a0a19e;
+}
+
+.btn-green:hover{
+    background-color: #509e5c;
+
+}
+.nav2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-green{
+    border-color: #5de372;
+    background-color: #5de372;
+    font-size: 13px;
+    height: 32px;
+}
+
